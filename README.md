@@ -1,7 +1,7 @@
 Project Overview:
 
 This project allows two producers to generate two types of items and place them into buffers, then the consumer will fetch from the buffers and remove an item from the 
-buffer. This program runs in a continous loop and in threads, so the management of the buffers' sizes and protection of cricital sections are implemented in mind.
+buffer. This program runs in a continous loop and in threads, so the management of the buffers' sizes and protection of critical sections are implemented in mind.
 
 
 Project Description:
