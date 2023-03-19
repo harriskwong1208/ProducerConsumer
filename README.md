@@ -1,3 +1,9 @@
+Project Overview:
+
+This project allows two producers to generate two types of items and place them into buffers, then the consumer will fetch from the buffers and remove an item from the 
+buffer. This program runs in a continous loop and in threads, so the management of the buffers' sizes and protection of cricital sections are implemented in mind.
+
+
 Project Description:
 
 This project includes the use of threads to build and solve the producer consumer problem. I first create 5 threads, with one thread for distributor, two threads for consumer
